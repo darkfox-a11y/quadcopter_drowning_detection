@@ -1,0 +1,8 @@
+train: /Users/neerad/drowning-detection/drowning-detection-dataset/self-made dataset/images/train
+val: /Users/neerad/drowning-detection/drowning-detection-dataset/self-made dataset/images/val
+
+nc: 3
+names: ['swimming', 'tread water', 'drowning']
+
+
+
