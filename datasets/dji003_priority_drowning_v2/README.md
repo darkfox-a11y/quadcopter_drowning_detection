@@ -39,7 +39,7 @@ Local contents include:
 
 ## Notes
 
-- The dataset was generated using `mine_dji_videos.py`
+- The dataset was generated using `manual_tests/mine_dji_videos.py`
 - Frames were sampled at approximately `1 second` intervals
 - Empty detections were removed
 - Strict `swimming` and `tread water` video labels were preserved
