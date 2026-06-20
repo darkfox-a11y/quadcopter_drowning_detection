@@ -1,5 +1,30 @@
 # Python virtual environment (DO NOT COMMIT)
 venv/
+.venv/
+__pycache__/
+*.pyc
 
 # OS junk
 .DS_Store
+
+# Large local-only assets
+mct_workspace/
+datasets/dji003_pseudolabels/
+datasets/dji003_priority_drowning/
+datasets/dji003_priority_drowning_v2/images/
+datasets/dji003_priority_drowning_v2/labels/
+datasets/dji003_priority_drowning_v2/previews/
+drowning-detection-dataset/self-made dataset/
+runs/
+!runs/detect/
+runs/detect/*
+!runs/detect/dji003_priority_finetune/
+runs/detect/dji003_priority_finetune/weights/
+runs/detect/dji003_priority_finetune/train_batch*.jpg
+runs/detect/dji003_priority_finetune/labels.jpg
+
+# Repo-ready lightweight artifacts
+!repo_assets/
+!repo_assets/**
+!reports/
+!reports/**
